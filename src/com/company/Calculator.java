@@ -12,7 +12,7 @@ public class Calculator {
                 "5 - Square Root\n" +
                 "6 - Exponent\n" +
                 "0 - Exit\n" +
-                "*********************";
+                "**********************";
         new Calculator().ascii();
         boolean isRunning = true;
         CalcLogic calc = new CalcLogic();
@@ -55,7 +55,7 @@ public class Calculator {
                 default:
                     System.out.println("Incorrect input");
             }
-            System.out.println("*********************");
+            System.out.println("**********************");
         }
 
     }
